@@ -1,0 +1,102 @@
+<!-- chp 6 tables -->
+
+
+table is something which can show data
+in rows and coloumns 
+
+heading can be of either of coloumn or row
+
+colspan and rowspan 
+
+thead , tbody , tfoot are still used 
+and are used where the table is so long that it is
+dividing itself into two pages
+
+The empty top left cell should always be created
+
+some final rows uses the colspan attribute to
+spread across all three columns.
+
+
+<!-- make some tables  for practice -->
+    
+<!-- general structure of a table -->
+tables can also have caption
+<table>
+    <caption>table 1.01</caption>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Bill</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Larry</td>
+        <td>22</td>
+    </tr>
+</table>
+
+
+another
+
+
+<table>
+    <tr>
+        <th></th>
+        <th>mon</th>
+        <th>tue</th>
+        <th>wed</th>
+        <th>thurs</th>
+    </tr>
+    <tr>
+        <th>Study</th>
+        <td colspan="4">8:30-1:30</td>
+    </tr>
+    <tr>
+        <th>Gym</th>
+        <td>1 hr </td>
+        <td>2 hr</td>
+        <td>1 hr</td>
+        <td> ---</td>
+    </tr>
+    <tr>
+        <th>practice</th>
+        <td colspan="2">2:30-4:00</td>
+        <td>3:00-4:00</td>
+        <td>2:30-4:00</td>
+    </tr>
+</table>
+
+<br><br>
+
+<table>
+    <tr>
+        <th></th>
+        <th>1-2</th>
+        <th>2-3</th>
+        <th>3-4</th>
+        <th>4-8</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <td rowspan="4">study</td>
+        <td rowspan="2">reading</td>
+        <td rowspan="4">break</td>
+        <td>programming</td>
+    </tr>
+    <tr>
+        <th>Tuesday</th>
+        <td>football</td>
+    </tr>
+    <tr>
+        <th>Wednesday</th>
+        <td>writing</td>
+        <td rowspan="2">programmming</td>
+    </tr>
+    <tr>
+        <th>Thursday</th>
+        <td>playing</td>
+    </tr>
+</table>
